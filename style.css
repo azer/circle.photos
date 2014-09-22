@@ -1,0 +1,70 @@
+.title {
+  margin: 0;
+  padding: 30px 0 0 0;
+}
+
+.title {
+  text-align: center;
+  font: 700 21px/1.2 "Playfair Display";
+  color: rgba(20, 20, 20, 0.7);
+}
+
+.title .username {
+  color: rgba(60, 20, 20, 0.8);
+  text-decoration: none;
+}
+
+.photos.loading .photo, .photos.fail .photo {
+  display: none;
+}
+
+.loading-message, .fail-message {
+  position: absolute;
+  display: none;
+  width: 100%;
+  padding-top: 400px;
+  background: url(https://cldup.com/vLKVPZxMnK.gif) no-repeat center;;
+  font: 700 14px/1.2 "Playfair Display";
+  text-align: center;
+}
+
+.fail-message {
+  background-image: url(https://cldup.com/dAxMG0RzUC.gif);
+}
+
+.photos.loading .loading-message, .photos.fail .fail-message {
+  display: block;
+}
+
+.photo {
+  display: block;
+  width: 20%;
+  height: 200px;
+  background: no-repeat center;
+  background-size: cover;
+  float: left;
+}
+
+.input {
+  width: 680px;
+  margin: 10px auto 30px auto;
+  font: normal 13px/24px "pt mono";
+}
+
+.input label {
+  padding-top: 2px;
+}
+
+input.username {
+  width: 500px;
+  border: 0;
+  font: normal 13px/24px "pt mono";
+  outline-width: 0;
+  color: rgb(120, 0, 140)
+}
+
+@media (max-width: 1000px) {
+  .photo {
+    width: 33.33%;
+  }
+}

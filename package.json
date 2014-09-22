@@ -1,0 +1,31 @@
+{
+  "name": "circle-photos",
+  "version": "0.0.0",
+  "description": "circle.photos app front-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "flickr",
+    "photos",
+    "photography"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/circle.photos.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD",
+  "dependencies": {
+    "nets": "^1.0.0",
+    "parallel-loop": "0.0.3",
+    "flickr-generate-urls": "0.0.1",
+    "playfair-display": "0.0.1",
+    "on-off": "0.0.2",
+    "debounce-fn": "0.0.0",
+    "pt-mono": "0.0.0",
+    "page": "^1.3.7",
+    "flickr-photo-brick": "0.0.0"
+  }
+}
