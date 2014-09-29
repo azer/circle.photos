@@ -68,3 +68,9 @@ input.username {
     width: 33.33%;
   }
 }
+
+@media (min-width: 2000px) {
+  .photo {
+    height: 300px;
+  }
+}
